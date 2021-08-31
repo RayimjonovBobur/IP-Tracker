@@ -106,6 +106,8 @@ body {
 
 #map {
   height: 65vh;
+  position: relative;
+  z-index: 1;
 }
 .leaflet-control-zoom {
   display: none;
@@ -159,6 +161,8 @@ body {
   align-items: center;
   margin: auto;
   margin-left: 37rem;
+  position: relative;
+  z-index: 5;
 }
 
 footer {
@@ -215,13 +219,13 @@ footer {
 
 .mytelegram:hover {
   box-shadow: 0 0 15px 8px #fff;
-  background-color: #aaa;
+  background-color: rgb(111, 136, 247);
   color: brown;
 }
 
 .mygithub:hover {
   box-shadow: 0 0 15px 8px #fff;
-  background-color: rgba(204, 204, 204, 0.767);
+  background-color: rgba(255, 98, 71, 0.767);
 }
 
 .bobur {
@@ -230,7 +234,7 @@ footer {
   font-weight: bold;
   position: absolute;
   bottom: 2rem;
-  color: #fff;
+  color: #000;
   margin: 70px;
   justify-content: space-between;
 }
